@@ -1,0 +1,27 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# [[ $DISPLAY ]] && shopt -s checkwinsize
+
+ps_bold="\[$(tput bold)\]"
+ps_cyan="\[$(tput setaf 6)\]"
+ps_reset="\[$(tput sgr0)\]"
+
+PS1="[${ps_bold}\u${ps_reset}@${ps_bold}\H${ps_reset} ${ps_cyan}\W${ps_reset}]\$ "
+
+unset ps_bold
+unset ps_cyan
+unset ps_reset
+
+## Coloring
+alias diff='diff --color=auto'
+alias ls='ls --color=auto'
+alias ip='ip -color=auto'
+alias grep='grep --color=auto'
+
+# Neovim btw
+EDITOR=nvim
