@@ -1,0 +1,14 @@
+import = ["/home/chardon/.config/alacritty/themes/tango.toml"]
+
+[font.normal]
+family = "Fira Code"
+
+[window]
+opacity = 0.85
+
+[keyboard]
+bindings = [
+    { key = ",", mods = "Control | Alt", action = "DecreaseFontSize" },
+    { key = ".", mods = "Control | Alt", action = "IncreaseFontSize" },
+    { key = "/", mods = "Control | Alt", action = "ResetFontSize" },
+]

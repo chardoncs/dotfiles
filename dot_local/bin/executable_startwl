@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#export WLR_RENDERER=vulkan
+
+# Firefox & Thunderbird using Wayland
+export MOZ_ENABLE_WAYLAND=1
+
+# Electron apps using Wayland
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
+
+export SDL_VIDEODRIVER=wayland
+
+export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+export GDK_BACKEND=wayland
+
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=wayland
+export XDG_SESSION_DESKTOP=wayland
+
+export QT_QPA_PLATFORM=wayland
+
+export XCURSOR_SIZE=24
+
+# OpenGL
+export GBM_BACKEND=nvidia-drm
+
+# Xwayland compatibility
+export XWAYLAND_NO_GLAMOR=1
+
+exec river
