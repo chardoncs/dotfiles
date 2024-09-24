@@ -1,4 +1,4 @@
-# Charles' dotfiles =)
+# Charles' dotfiles :)
 
 I manage my dotfiles using [chezmoi](https://www.chezmoi.io/).
 
