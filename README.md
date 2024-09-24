@@ -8,9 +8,22 @@ I manage my dotfiles using [chezmoi](https://www.chezmoi.io/).
 
 ## Setup
 
-Install chezmoi and run these two commands:
+Install chezmoi, and:
+
+Get the repo:
 
 ```
 $ chezmoi init chardoncs
+```
+
+To apply all dotfiles in the local machine:
+
+```
 $ chezmoi update
+```
+
+OR apply certain files:
+
+```
+$ chezmoi apply local/path/to/file
 ```
