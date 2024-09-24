@@ -17,11 +17,13 @@ unset ps_bold
 unset ps_cyan
 unset ps_reset
 
-## Coloring
+# Aliases
 alias diff='diff --color=auto'
 alias ls='ls --color=auto'
 alias ip='ip -color=auto'
 alias grep='grep --color=auto'
+
+alias dbeaver='GDK_BACKEND=x11 dbeaver'
 
 # Neovim btw
 EDITOR=nvim

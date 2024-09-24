@@ -161,7 +161,7 @@ riverctl spawn waybar
 riverctl spawn fcitx5
 
 # Wallpapeer
-riverctl spawn "swaybg -i ~/Pictures/wallpapers/shanghai/IMG_20240819_195229.jpg --mode fill"
+riverctl spawn "swaybg -i /usr/share/backgrounds/archlinux/archwave.png --mode fill"
 
 # Natural scrolling
 riverctl input pointer-1267-12717-ELAN2841:00_04F3:31AD_Touchpad natural-scroll enabled
