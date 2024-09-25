@@ -1,6 +1,6 @@
 # Charles' dotfiles :)
 
-I manage my dotfiles using [chezmoi](https://www.chezmoi.io/).
+I manage my dotfiles using [chezmoi](https://github.com/twpayne/chezmoi).
 
 > [!NOTE]
 >
