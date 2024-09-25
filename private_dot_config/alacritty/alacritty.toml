@@ -8,7 +8,5 @@ opacity = 0.85
 
 [keyboard]
 bindings = [
-    { key = ",", mods = "Control | Alt", action = "DecreaseFontSize" },
-    { key = ".", mods = "Control | Alt", action = "IncreaseFontSize" },
-    { key = "/", mods = "Control | Alt", action = "ResetFontSize" },
+    { key = "Backspace", mods = "Control | Alt", action = "ResetFontSize" },
 ]
