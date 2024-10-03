@@ -13,9 +13,7 @@ ps_reset="\[$(tput sgr0)\]"
 
 PS1="[${ps_bold}\u${ps_reset}@${ps_bold}\H${ps_reset} ${ps_cyan}\W${ps_reset}]\$ "
 
-unset ps_bold
-unset ps_cyan
-unset ps_reset
+unset ps_bold ps_cyan ps_reset
 
 # Aliases
 alias diff='diff --color=auto'
@@ -24,6 +22,8 @@ alias ip='ip -color=auto'
 alias grep='grep --color=auto'
 
 alias dbeaver='GDK_BACKEND=x11 dbeaver'
+
+alias doom-emacs="~/.config/emacs/bin/doom run"
 
 # Neovim btw
 EDITOR=nvim
