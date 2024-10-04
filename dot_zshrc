@@ -76,8 +76,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -111,3 +109,14 @@ fi
 alias dbeaver='GDK_BACKEND=x11 dbeaver'
 
 alias doom-emacs="~/.config/emacs/bin/doom run"
+
+export http_proxy="http://127.0.0.1:7890/"
+export ftp_proxy="ftp://127.0.0.1:7890/"
+export rsync_proxy="rsync://127.0.0.1:7890/"
+export no_proxy="localhost,127.0.0.1,192.168.1.1,::1,*.local"
+export HTTP_PROXY="http://127.0.0.1:7890/"
+export FTP_PROXY="ftp://127.0.0.1:7890/"
+export RSYNC_PROXY="rsync://127.0.0.1:7890/"
+export NO_PROXY="localhost,127.0.0.1,192.168.1.1,::1,*.local"
+export https_proxy="http://127.0.0.1:7890/"
+export HTTPS_PROXY="http://127.0.0.1:7890/"
