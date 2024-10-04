@@ -27,3 +27,8 @@ OR apply certain files:
 ```
 $ chezmoi apply local/path/to/file
 ```
+
+### Extra configurations
+
+- .local/bin/startwl: [River](https://codeberg.org/river/river) installed
+- .zshrc: Requires [Oh My Zsh](https://ohmyz.sh/)
