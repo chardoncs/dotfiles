@@ -15,7 +15,7 @@ export GDK_DPI_SCALE=1
 export GDK_BACKEND=wayland
 
 export XDG_SESSION_TYPE=wayland
-export XDG_CURRENT_DESKTOP=wayland
+export XDG_CURRENT_DESKTOP=wlr
 export XDG_SESSION_DESKTOP=wayland
 
 export QT_QPA_PLATFORM=wayland
