@@ -7,6 +7,9 @@
 // custom settings, run the `zed: Open Default Settings` command
 // from the command palette
 {
+  "features": {
+    "inline_completion_provider": "none"
+  },
   "telemetry": {
     "metrics": false
   },
@@ -15,7 +18,7 @@
   "buffer_font_size": 16,
   "theme": {
     "mode": "dark",
-    "light": "One Light",
+    "light": "Ayu Light",
     "dark": "Ayu Dark"
   },
   "ui_font_family": "Inter",

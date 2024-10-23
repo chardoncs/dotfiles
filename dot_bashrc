@@ -21,9 +21,12 @@ alias ls='ls --color=auto'
 alias ip='ip -color=auto'
 alias grep='grep --color=auto'
 
-alias dbeaver='GDK_BACKEND=x11 dbeaver'
-
 alias doom-emacs="~/.config/emacs/bin/doom run"
 
-# Neovim btw
-EDITOR=nvim
+if [[ -n $SSH_CONNECTION ]]; then
+  # Vim over SSH connection
+  export EDITOR='vim'
+else
+  # Neovim btw
+  export EDITOR='nvim'
+fi

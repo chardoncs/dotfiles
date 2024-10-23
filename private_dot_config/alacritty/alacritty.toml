@@ -1,3 +1,4 @@
+[general]
 import = ["/home/chardon/.config/alacritty/themes/tango.toml"]
 
 [font.normal]
