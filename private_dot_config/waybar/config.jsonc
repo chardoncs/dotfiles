@@ -9,6 +9,9 @@
         "hyprland/language",
         "hyprland/workspaces",
         "hyprland/window",
+        "river/mode",
+        "river/layout",
+        "river/window",
     ],
     "modules-center": [
     ],
