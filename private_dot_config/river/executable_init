@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
@@ -174,14 +174,12 @@ way-displays > /tmp/way-displays.${XDG_VTNR}.${USER}.log 2>&1 &
 riverctl map normal Super+Shift F spawn pcmanfm-qt
 
 # Screenshot
-riverctl map normal Print spawn "flameshot gui"
-riverctl map normal Super Print spawn "flameshot gui -d 5000"
-riverctl map normal Super+Shift Print spawn "flameshot full"
+#riverctl map normal Print spawn "grim ~/Pictures/screenshots/screenshot-\$(date -u +%Y-%m-%d_%H-%M-%S).png"
 
 # Notification
 riverctl spawn dunst
 
-riverctl map normal Super X spawn waylock
+riverctl map normal Super X spawn hyprlock
 
 # Polkit
 riverctl spawn "/usr/bin/lxqt-policykit-agent"
