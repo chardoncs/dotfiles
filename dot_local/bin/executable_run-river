@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#export WLR_RENDERER=vulkan
+export WLR_RENDERER=pixman
 
 # Firefox & Thunderbird using Wayland
 export MOZ_ENABLE_WAYLAND=1
