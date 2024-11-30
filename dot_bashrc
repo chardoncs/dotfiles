@@ -11,7 +11,7 @@ ps_bold="\[$(tput bold)\]"
 ps_cyan="\[$(tput setaf 6)\]"
 ps_reset="\[$(tput sgr0)\]"
 
-PS1="[${ps_bold}\u${ps_reset}@${ps_bold}\H${ps_reset} ${ps_cyan}\W${ps_reset}]\$ "
+PS1="[${ps_bold}\u${ps_reset}@${ps_bold}\h${ps_reset} ${ps_cyan}\W${ps_reset}]\$ "
 
 unset ps_bold ps_cyan ps_reset
 
@@ -30,3 +30,5 @@ else
   # Neovim btw
   export EDITOR='nvim'
 fi
+
+export BUN_CONFIG_MAX_HTTP_REQUESTS=60
