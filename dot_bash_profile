@@ -1,0 +1,8 @@
+env=$HOME/.bashrc
+
+. $env
+
+# Load ~/.profile
+. $HOME/.profile
+
+export ENV=$env

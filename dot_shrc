@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+ps_bold="\[$(tput bold)\]"
+ps_cyan="\[$(tput setaf 6)\]"
+ps_reset="\[$(tput sgr0)\]"
+
+PS1="[${ps_bold}\u${ps_reset}@${ps_bold}\h${ps_reset} ${ps_cyan}\W${ps_reset}]\$ "
+
+unset ps_bold ps_cyan ps_reset
+
+# Aliases
+alias diff='diff --color=auto'
+alias ls='ls --color=auto'
+alias ip='ip -color=auto'
+alias grep='grep --color=auto'
+
+#alias doom-emacs="~/.config/emacs/bin/doom run"
+
+if [ $SSH_CONNECTION ]; then
+  # Vim over SSH connection
+  export EDITOR='nvim'
+else
+  # Neovim btw
+  export EDITOR='nvim'
+fi
