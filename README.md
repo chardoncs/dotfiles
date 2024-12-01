@@ -30,4 +30,4 @@ $ chezmoi apply local/path/to/file
 
 ### Extra configurations
 
-- .local/bin/startwl: Install [River](https://codeberg.org/river/river)
+- .local/bin/run-river: Install [River](https://codeberg.org/river/river)
