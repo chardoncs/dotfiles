@@ -1,3 +1,29 @@
 export ENV=$HOME/.shrc
 
-PATH="$HOME/.local/bin:$PATH"
+PATH="$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.local/share/gem/ruby/default/bin:$PATH"
+
+export GOROOT="/usr/lib/go"
+export GOPATH="$HOME/go"
+#export GOPROXY=https://goproxy.io,direct
+
+export PATH="$GOPATH/bin:$PATH"
+
+# Userspace Android SDK
+export ANDROID_HOME=$HOME/Android/Sdk
+
+# CUDA
+export CUDA_DEVICE_ORDER="PCI_BUS_ID"
+export CUDA_VISIBLE_DEVICES=0
+
+# fcitx
+export XMODIFIERS=@im=fcitx
+
+# Qt
+export QT_QPA_PLATFORMTHEME=qt6ct
+
+# Vulkan
+export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
+
+# Clang
+export CC=clang
+export CXX=clang++

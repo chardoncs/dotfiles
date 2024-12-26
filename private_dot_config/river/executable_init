@@ -182,4 +182,4 @@ riverctl spawn dunst
 riverctl map normal Super X spawn hyprlock
 
 # Polkit
-riverctl spawn "/usr/bin/lxqt-policykit-agent"
+riverctl spawn "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"

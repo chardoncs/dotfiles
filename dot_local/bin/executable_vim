@@ -1,9 +1,0 @@
-#!/usr/bin/env sh
-
-rc_file=$HOME/.vimrc
-
-if [ -f $rc_file ]; then
-  exec nvim -u $rc_file $@
-else
-  exec nvim -u NORC $@
-fi

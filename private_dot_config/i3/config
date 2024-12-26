@@ -45,7 +45,7 @@ exec --no-startup-id ~/.fehbg
 
 exec --no-startup-id dunst
 
-exec --no-startup-id /usr/bin/lxqt-policykit-agent
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 #exec /usr/bin/prime-offload
 

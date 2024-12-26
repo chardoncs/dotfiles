@@ -8,10 +8,11 @@
     "modules-left": [
         "hyprland/language",
         "hyprland/workspaces",
-        "hyprland/window",
-        "river/mode",
-        "river/layout",
-        "river/window",
+        "hyprland/window"
+        //"river/mode",
+        //"river/layout",
+        //"river/tags",
+        //"river/window"
     ],
     "modules-center": [
     ],
@@ -39,6 +40,9 @@
             "locked": " ",
             "unlocked": " "
         }
+    },
+    "river/tags": {
+        "all-outputs": false
     },
     "river/window": {
         "max-length": 50
