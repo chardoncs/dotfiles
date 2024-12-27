@@ -1,5 +1,5 @@
 [general]
-import = ["/home/chardon/.config/alacritty/themes/tango.toml"]
+import = ["~/.config/alacritty/themes/tango.toml"]
 
 [font]
 size = 12
