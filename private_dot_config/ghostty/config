@@ -1,0 +1,14 @@
+font-family = "Fira Code"
+font-feature = "-calt"
+
+theme = "Builtin Tango Dark"
+
+background = 000000
+background-opacity = 0.8
+
+window-decoration = false
+
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+
