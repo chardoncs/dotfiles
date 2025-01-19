@@ -28,6 +28,23 @@ OR apply certain files:
 $ chezmoi apply local/path/to/file
 ```
 
-### Extra configurations
+### Extra installations
 
 - .local/bin/run-river: Install [River](https://codeberg.org/river/river)
+
+## Included configs
+
+| Software | Directories / Files |
+|----------|---------------------|
+| [Alacritty](https://alacritty.org/) [MIT OR Apache-2.0] | `.config/alacritty/` |
+| [ATAC](https://atac.julien-cpsn.com/) [MIT] | `.config/atac/` |
+| Bash [GPL-3.0-or-later] | `.bash_profile` (includes `.profile`), `.bashrc` (includes `.shrc`) |
+| Bourne shell implementation (sh) [various] | `.profile`, `.shrc` |
+| [Ghostty](https://ghostty.org/) [MIT] | `.config/ghostty/` |
+| [Hyprland](https://hyprland.org/) [BSD-3-Clause] | `.config/hypr/hyprland.conf` |
+| [i3](https://i3wm.org/) [BSD-3-Clause] | `.config/i3/config` |
+| [River](https://codeberg.org/river) | `.config/river/init`, runner: `.local/bin/run-river` |
+| [Tmux](https://github.com/tmux) | `.config/tmux/` |
+| [Waybar](https://github.com/Alexays/Waybar) | `.config/waybar/` |
+| X11 | `.xinitrc` |
+| [Zed](https://zed.dev/) | `.config/zed/` |
