@@ -42,7 +42,7 @@ $ chezmoi apply local/path/to/file
 | Bourne shell implementation (sh) [various] | `.profile`, `.shrc` |
 | [Ghostty](https://ghostty.org/) [MIT] | `.config/ghostty/` |
 | [Hyprland](https://hyprland.org/) [BSD-3-Clause] | `.config/hypr/hyprland.conf` |
-| [i3](https://i3wm.org/) [BSD3-Clause] | `.config/i3/config` |
+| [i3](https://i3wm.org/) [BSD-3-Clause] | `.config/i3/config` |
 | [River](https://codeberg.org/river) [GPL-3.0] | `.config/river/init`, runner: `.local/bin/run-river` |
 | [Tmux](https://github.com/tmux) [ISC] | `.config/tmux/` |
 | [Waybar](https://github.com/Alexays/Waybar) [MIT] | `.config/waybar/` |
