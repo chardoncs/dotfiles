@@ -25,3 +25,5 @@ else
 fi
 
 export BUN_CONFIG_MAX_HTTP_REQUESTS=60
+
+export ATAC_KEY_BINDINGS="$HOME/.config/atac/vim_key_bindings.toml"
