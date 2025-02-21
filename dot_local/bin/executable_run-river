@@ -15,11 +15,11 @@ export GDK_DPI_SCALE=1
 export GDK_BACKEND=wayland,x11
 
 export XDG_SESSION_TYPE=wayland
-export XDG_CURRENT_DESKTOP=wlr
+export XDG_CURRENT_DESKTOP=river
 export XDG_SESSION_DESKTOP=wayland
 
 export QT_AUTO_SCREEN_SCALE_FACTOR=1
-export QT_QPA_PLATFORM="wayland;xcb"
+export QT_QPA_PLATFORM="wayland-egl;xcb"
 
 export XCURSOR_SIZE=24
 
@@ -31,4 +31,9 @@ export WLR_DRM_NO_ATOMIC=1
 # Xwayland compatibility
 export XWAYLAND_NO_GLAMOR=1
 
-exec river
+#export LIBVA_DRIVER_NAME=nvidia
+#export __GLX_VENDOR_LIBRARY_NAME=nvidia
+
+#export NVD_BACKEND=direct
+
+exec dbus-run-session river
