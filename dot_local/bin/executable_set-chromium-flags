@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+base_path="$HOME/.config"
+
+symlink_name="chromium-flags.conf"
+conf_target="chromium-flags-x11.conf"
+
+if [ -n "$WAYLAND_DISPLAY" ]; then
+    conf_target="chromium-flags-wayland.conf"
+fi
+
+ln -sf ./$conf_target $base_path/$symlink_name
