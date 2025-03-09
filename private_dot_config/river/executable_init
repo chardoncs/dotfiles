@@ -163,9 +163,6 @@ riverctl spawn fcitx5
 # Wallpapeer
 riverctl spawn "swaybg -i /usr/share/backgrounds/archlinux/archwave.png --mode fill"
 
-# Set Chromium flags
-riverctl spawn ~/.local/bin/set-chromium-flags
-
 # Natural scrolling
 riverctl input pointer-1267-12717-ELAN2841:00_04F3:31AD_Touchpad natural-scroll enabled
 riverctl input pointer-1267-12717-ELAN2841:00_04F3:31AD_Touchpad tap enabled
