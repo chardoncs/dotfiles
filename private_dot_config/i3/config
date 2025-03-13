@@ -220,7 +220,8 @@ bindsym $mod+r mode "resize"
 bindsym $mod+x exec i3lock-start
 
 # Screenshot
-bindsym Print exec maim ~/Pictures/screenshots/screenshot-$(date -u +%Y-%m-%d_%H-%M-%S).png
+bindsym Print exec maim -u ~/Pictures/screenshots/screenshot-$(date -u +%Y-%m-%d_%H-%M-%S).png
+bindsym $mod+Print exec maim ~/Pictures/screenshots/screenshot-$(date -u +%Y-%m-%d_%H-%M-%S).png
 
 # File explorer
 set $explorer "pcmanfm-qt"
