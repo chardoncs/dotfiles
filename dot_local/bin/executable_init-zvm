@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+export PATH="$HOME/.zvm/bin:$PATH"
