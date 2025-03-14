@@ -30,7 +30,8 @@ $ chezmoi apply local/path/to/file
 
 ### Extra installations
 
-- .local/bin/run-river: Install [River](https://codeberg.org/river/river)
+- `.local/bin/run-river`: Install [River](https://codeberg.org/river/river).
+- `.local/bin/init-zvm`: [ZVM](https://github.com/tristanisham/zvm). Note: it is the one written in Go, not [in Zig](https://github.com/hendriknielaender/zvm).
 
 ## Included configs
 
