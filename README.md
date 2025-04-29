@@ -41,7 +41,6 @@ $ chezmoi apply local/path/to/file
 | [ATAC](https://atac.julien-cpsn.com/) [MIT] | `.config/atac/` |
 | Bash [GPL-3.0-or-later] | `.bash_profile` (includes `.profile`), `.bashrc` (includes `.shrc`) |
 | Bourne shell implementation (sh) [various] | `.profile`, `.shrc` |
-| [Ghostty](https://ghostty.org/) [MIT] | `.config/ghostty/` |
 | [Hyprland](https://hyprland.org/) [BSD-3-Clause] | `.config/hypr/hyprland.conf` |
 | [i3](https://i3wm.org/) [BSD-3-Clause] | `.config/i3/config` |
 | [River](https://codeberg.org/river) [GPL-3.0-or-later] | `.config/river/init`, runner: `.local/bin/run-river` |
