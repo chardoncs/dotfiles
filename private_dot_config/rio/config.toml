@@ -1,9 +1,15 @@
+padding-y = [-5, -15]
+
 [window]
 opacity = 0.8
 
 [fonts]
 family = "Fira Code"
 size = 16
+features = []
 
 [colors]
 cursor = '#EEEEEE'
+
+[renderer]
+level = 0
