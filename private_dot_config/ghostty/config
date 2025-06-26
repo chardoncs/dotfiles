@@ -1,5 +1,6 @@
-font-family = "Fira Code"
-font-feature = "-calt"
+font-family = "Recursive Mono Linear Static"
+font-feature = "-calt, -dlig"
+font-size = 12
 
 theme = "Builtin Tango Dark"
 
