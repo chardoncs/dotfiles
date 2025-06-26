@@ -34,3 +34,6 @@ keybind = ctrl+shift+7=goto_tab:7
 keybind = ctrl+shift+8=goto_tab:8
 keybind = ctrl+shift+9=goto_tab:9
 keybind = ctrl+shift+0=goto_tab:10
+
+keybind = ctrl+shift+h=previous_tab
+keybind = ctrl+shift+l=next_tab
