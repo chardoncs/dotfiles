@@ -1,6 +1,6 @@
 font-family = "Recursive Mono Linear Static"
 font-feature = "-calt, -dlig, +ss07, +ss12"
-font-size = 14
+font-size = 13
 
 theme = "Builtin Tango Dark"
 
