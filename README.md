@@ -49,15 +49,3 @@ $ chezmoi apply local/path/to/file
 | [Waybar](https://github.com/Alexays/Waybar) [MIT] | `.config/waybar/` |
 | X11 [SGI / MIT Variant] | `.xinitrc` |
 | [Zed](https://zed.dev/) [AGPL-3.0 OR Apache-2.0 OR GPL-3.0] | `.config/zed/` |
-| [ZVM (Go)](https://github.com/tristanisham/zvm) [MIT] | `.local/bin/init-zvm` |
-
-### Extras
-
-To use Zig installed via ZVM, run:
-
-```bash
-# Shell
-. $(which init-zvm)
-# Or Bash
-source $(which init-zvm)
-```

@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+version=$1
+
+if [ -z $version ]; then
+    echo "Version is needed"
+    exit
+fi
+
+target_name=zig-$(uname -m)-$(echo $(uname -s) | tr '[:upper:]' '[:lower:]')-${version}
+target_file=${target_name}.tar.xz
+base_url=https://ziglang.org/download/${version}/$target_file
+
+tmp_dir=$(mktemp -d)
+
+bin_dir=/usr/local/bin
+doc_dir=/usr/local/share/doc/zig
+lib_dir=/usr/local/lib/zig
+
+cd $tmp_dir
+
+curl $base_url -o ./$target_file
+tar xJvf ./$target_file
+
+cd ./$target_name
+sudo install -v -m755 -o root ./zig $bin_dir/zig
+
+sudo rm -rf $lib_dir
+sudo mkdir -p $lib_dir
+sudo cp -vr ./lib/* $lib_dir
+sudo chown -R root:root $lib_dir
+
+sudo rm -rf $doc_dir
+sudo mkdir -p $doc_dir
+sudo cp -vr ./doc/* $doc_dir
+sudo chown -R root:root $doc_dir
+
+rm -rf $tmp_dir
