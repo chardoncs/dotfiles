@@ -13,7 +13,7 @@ Install chezmoi, and:
 Get the repo:
 
 ```
-$ chezmoi init chardoncs
+$ chezmoi init https://github.com/chardoncs/dotfiles.git
 ```
 
 To apply all dotfiles in the local machine:
