@@ -6,27 +6,19 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/language",
-        "hyprland/workspaces",
-        "hyprland/window"
-        //"river/mode",
-        //"river/layout",
-        //"river/tags",
-        //"river/window"
+        "hyprland/workspaces"
     ],
     "modules-center": [
+      "clock"
     ],
     "modules-right": [
         "disk",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
         "cpu",
         "memory",
         "backlight",
-        "keyboard-state",
         "battery",
-        "clock",
         "tray"
     ],
     "hyprland/workspaces": {
@@ -56,7 +48,7 @@
     },
     "clock": {
         "interval": 1,
-        "format": "{:%a %D %X}"
+        "format": "{:%a %X}"
     },
     "cpu": {
         "format": "CPU {usage}%",
@@ -95,9 +87,10 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "  {ifname}: {essid} {signalStrength}%",
+        "format-wifi": "  {ifname}: {signalStrength}%",
         "format-ethernet": "󰈀 {ipaddr}/{cidr}",
         "tooltip-format": "{ifname} via {gwaddr}",
+        "tooltip-format-wifi": "{essid}",
         "format-linked": "󰈁 {ifname} (No IP)",
         "format-disconnected": "󰈂 disconnected",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
