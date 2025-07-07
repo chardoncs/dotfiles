@@ -48,7 +48,8 @@
     },
     "clock": {
         "interval": 1,
-        "format": "{:%a %X}"
+        "format": "{:%a %X}",
+        "tooltip-format": "{:%F}"
     },
     "cpu": {
         "format": "CPU {usage}%",
