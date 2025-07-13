@@ -2,9 +2,6 @@
 
 export WLR_RENDERER=pixman
 
-# Firefox & Thunderbird using Wayland
-export MOZ_ENABLE_WAYLAND=1
-
 # Electron apps using Wayland if possible
 export ELECTRON_OZONE_PLATFORM_HINT=auto
 
