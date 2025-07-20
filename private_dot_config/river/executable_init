@@ -152,7 +152,7 @@ riverctl default-layout rivertile
 rivertile -view-padding 0 -outer-padding 0 &
 
 # Menu
-riverctl map normal Super D spawn bemenu-run
+riverctl map normal Super D spawn rofi -show run
 
 # Status bar
 riverctl spawn waybar
