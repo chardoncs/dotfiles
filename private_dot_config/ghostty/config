@@ -35,5 +35,17 @@ keybind = ctrl+shift+8=goto_tab:8
 keybind = ctrl+shift+9=goto_tab:9
 keybind = ctrl+shift+0=goto_tab:10
 
-keybind = ctrl+shift+h=previous_tab
-keybind = ctrl+shift+l=next_tab
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+j=goto_split:down
+keybind = ctrl+shift+k=goto_split:up
+keybind = ctrl+shift+l=goto_split:right
+
+keybind = ctrl+shift+alt+h=resize_split:left,10
+keybind = ctrl+shift+alt+j=resize_split:down,10
+keybind = ctrl+shift+alt+k=resize_split:up,10
+keybind = ctrl+shift+alt+l=resize_split:right,10
+
+keybind = ctrl+shift+o=new_split:left
+keybind = ctrl+shift+p=new_split:down
+keybind = ctrl+shift+[=new_split:up
+keybind = ctrl+shift+]=new_split:right
