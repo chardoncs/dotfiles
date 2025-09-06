@@ -1,6 +1,6 @@
 font-family = "Martian Mono"
 font-feature = "-calt, -dlig, +cv01, -ss03"
-font-size = 13
+font-size = 12
 
 theme = "Builtin Tango Dark"
 
