@@ -1,5 +1,5 @@
-font-family = "Rec Mono Semicasual"
-font-feature = "-calt, -dlig, +ss07, +ss12"
+font-family = "Martian Mono"
+font-feature = "-calt, -dlig, +cv01, -ss03"
 font-size = 13
 
 theme = "Builtin Tango Dark"
