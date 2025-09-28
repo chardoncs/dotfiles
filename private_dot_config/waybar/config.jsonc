@@ -6,6 +6,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
+        "custom/arch",
         "hyprland/workspaces"
     ],
     "modules-center": [
@@ -133,5 +134,10 @@
             "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol"
+    },
+    "custom/arch": {
+      "format": "󰣇",
+      "on-click": "rofi -show run",
+      "tooltip-format": "Open menu"
     }
 }

@@ -8,7 +8,7 @@
 }
 
 window#waybar {
-    background: none;
+    background-color: rgba(10, 10, 10, 0.75);
     border: none;
     color: #ffffff;
 }
@@ -50,6 +50,10 @@ window#waybar.chromium {
     box-shadow: inset 0 -3px #ffffff;
 }
 
+#custom-arch {
+  margin-left: 10pt;
+}
+
 #clock,
 #battery,
 #cpu,
@@ -70,7 +74,6 @@ window#waybar.chromium {
     padding: 0 6pt;
     color: #ffffff;
     margin: 0 1pt;
-    background-color: rgba(10, 10, 10, 0.8);
 }
 
 #window,
