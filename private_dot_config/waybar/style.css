@@ -1,53 +1,58 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "DejaVu Sans Mono", monospace, sans-serif;
-    font-size: 12px;
-    min-height: 0;
-    border-radius: 4pt;
-    transition: none;
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: "DejaVu Sans Mono", monospace, sans-serif;
+  font-size: 12px;
+  min-height: 0;
+  border-radius: 4pt;
+  transition: none;
 }
 
 window#waybar {
-    background-color: rgba(10, 10, 10, 0.75);
-    border: none;
-    color: #ffffff;
+  background-color: rgba(10, 10, 10, 0.75);
+  border: none;
+  color: #ffffff;
 }
 
 window#waybar.hidden {
-    opacity: 0.2;
+  opacity: 0.2;
 }
 
 window#waybar.termite {
-    background-color: #3F3F3F;
+  background-color: #3F3F3F;
 }
 
 window#waybar.chromium {
-    background-color: #000000;
-    border: none;
+  background-color: #000000;
+  border: none;
 }
 
 #workspaces button {
-    padding: 0pt 4pt;
-    background-color: transparent;
-    color: #ffffff;
+  padding: 0pt 4pt;
+  background-color: transparent;
+  color: #ffffff;
 }
 
-#workspaces button:hover,button.active {
-    background: rgba(0, 0, 0, 0.2);
+#workspaces button:hover {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+  background-color: #64727D;
+  box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+  background-color: #eb4d4b;
+}
+
+#workspaces button.active {
+  background-color: #dbdbdb;
+  color: #252525;
 }
 
 #mode {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+  background-color: #64727D;
+  box-shadow: inset 0 -3px #ffffff;
 }
 
 #custom-arch {
@@ -71,24 +76,24 @@ window#waybar.chromium {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
-    padding: 0 6pt;
-    color: #ffffff;
-    margin: 0 1pt;
+  padding: 0 6pt;
+  color: #ffffff;
+  margin: 0 1pt;
 }
 
 #window,
 #workspaces {
-    margin: 0 6px;
+  margin: 0 6px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 #clock {
@@ -96,52 +101,52 @@ window#waybar.chromium {
 }
 
 #battery {
-    background-color: #1e2b76;
-    color: #8899f7;
+  background-color: #1e2b76;
+  color: #8899f7;
 }
 
 #battery.charging, #battery.plugged {
-    color: #75ffad;
-    background-color: #14572f;
+  color: #75ffad;
+  background-color: #14572f;
 }
 
 @keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #000000;
-    }
+  to {
+    background-color: #ffffff;
+    color: #000000;
+  }
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #740100;
-    color: #ffacab;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: steps(12);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  background-color: #740100;
+  color: #ffacab;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 #power-profiles-daemon {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 #power-profiles-daemon.performance {
-    background-color: #f53c3c;
-    color: #ffffff;
+  background-color: #f53c3c;
+  color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
-    background-color: #2980b9;
-    color: #ffffff;
+  background-color: #2980b9;
+  color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
-    color: #000000;
+  background-color: #2ecc71;
+  color: #000000;
 }
 
 label:focus {
-    background-color: #000000;
+  background-color: #000000;
 }
