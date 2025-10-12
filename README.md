@@ -37,6 +37,7 @@ $ chezmoi apply local/path/to/file
 
 | Software | Directories / Files |
 |----------|---------------------|
+| [Alacritty](https://alacritty.org/) [MIT OR Apache-2.0] | `.config/alacritty/` |
 | [ATAC](https://atac.julien-cpsn.com/) [MIT] | `.config/atac/` |
 | Bash [GPL-3.0-or-later] | `.bash_profile` (includes `.profile`), `.bashrc` (includes `.shrc`) |
 | Bourne shell implementation (sh) [various] | `.profile`, `.shrc` |

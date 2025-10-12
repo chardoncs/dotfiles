@@ -1,0 +1,16 @@
+[general]
+import = ["~/.config/alacritty/themes/tango.toml"]
+
+[font]
+size = 12
+
+[font.normal]
+family = "Fira Code"
+
+[window]
+opacity = 0.85
+
+[keyboard]
+bindings = [
+    { key = "Backspace", mods = "Control | Alt", action = "ResetFontSize" },
+]
