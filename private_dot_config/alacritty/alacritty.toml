@@ -5,7 +5,7 @@ import = ["~/.config/alacritty/themes/tango.toml"]
 size = 12
 
 [font.normal]
-family = "Fira Code"
+family = "Martian Mono"
 
 [window]
 opacity = 0.85
