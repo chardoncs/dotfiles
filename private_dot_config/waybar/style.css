@@ -30,6 +30,7 @@ window#waybar.chromium {
   padding: 0pt 4pt;
   background-color: transparent;
   color: #ffffff;
+  min-width: 16px;
 }
 
 #workspaces button:hover {
