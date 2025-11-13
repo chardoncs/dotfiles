@@ -3,7 +3,6 @@
   font-family: "DejaVu Sans Mono", monospace, sans-serif;
   font-size: 12px;
   min-height: 0;
-  border-radius: 4pt;
   transition: none;
 }
 
@@ -31,6 +30,7 @@ window#waybar.chromium {
   background-color: transparent;
   color: #ffffff;
   min-width: 16px;
+  border-radius: 4pt;
 }
 
 #workspaces button:hover {
@@ -80,6 +80,7 @@ window#waybar.chromium {
   padding: 0 6pt;
   color: #ffffff;
   margin: 0 1pt;
+  border-radius: 4pt;
 }
 
 #window,
