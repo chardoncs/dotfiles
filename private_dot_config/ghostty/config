@@ -9,9 +9,10 @@ background-opacity = 0.8
 
 #window-decoration = false
 
-#shell-integration-features = no-cursor
+shell-integration-features = ssh-terminfo,ssh-env
 #cursor-style = block
 #cursor-style-blink = false
+
 
 keybind = alt+digit_1=unbind
 keybind = alt+digit_2=unbind
