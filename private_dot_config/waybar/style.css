@@ -1,6 +1,6 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: "DejaVu Sans Mono", monospace, sans-serif;
+  font-family: "IBM Plex Mono", monospace, sans-serif;
   font-size: 12px;
   min-height: 0;
   transition: none;
