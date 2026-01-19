@@ -1,7 +1,19 @@
-font-family = "Martian Mono"
-font-feature = "-calt, -dlig, +cv01, -ss03"
-font-size = 12
-adjust-cell-height = 20%
+# JetBrains Mono
+font-family = "JetBrains Mono"
+font-feature = "-calt, -dlig, +zero"
+font-size = 13
+
+# Fira Code
+#font-family = "Fira Code"
+#font-feature = "-calt, -dlig"
+#font-size = 13
+#adjust-cell-height = 6%
+
+# Martian Mono
+#font-family = "Martian Mono"
+#font-feature = "-calt, -dlig, +cv01, -ss03"
+#font-size = 12
+#adjust-cell-height = 20%
 
 theme = "Builtin Tango Dark"
 
