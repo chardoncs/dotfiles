@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "$(hyprpaper-random)" > $HOME/.config/hypr/hyprpaper.d/wallpaper.conf
+
+exec hyprpaper
