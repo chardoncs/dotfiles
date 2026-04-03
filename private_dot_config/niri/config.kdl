@@ -305,6 +305,14 @@ animations {
     // slowdown 3.0
 }
 
+cursor {
+    xcursor-theme "breeze_cursors"
+    xcursor-size 24
+
+    //hide-when-typing
+    //hide-after-inactive-ms 1000
+}
+
 // Window rules let you adjust behavior for individual windows.
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Window-Rules
