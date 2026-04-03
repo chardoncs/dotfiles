@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+#desktop_type=$XDG_SESSION_TYPE
+desktop_name=$XDG_SESSION_DESKTOP
+
+if [ "$desktop_name" == 'Hyprland' ]; then
+    hyprctl keyword monitor eDP-1,disable
+else
+    xrandr --output eDP --off
+fi
