@@ -281,6 +281,9 @@ spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "/usr/lib/xdg-desktop-portal-wlr"
 spawn-at-startup "/usr/lib/xdg-desktop-portal-gtk"
 
+// Solaar (Logi device manager)
+//spawn-sh-at-startup "solaar -w hide"
+
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
     // skip-at-startup
