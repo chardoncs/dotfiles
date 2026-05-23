@@ -7,8 +7,8 @@
   // Choose the order of the modules
   "modules-left": [
     "custom/arch",
-    "hyprland/workspaces",
-    "hyprland/window"
+    "niri/workspaces",
+    "niri/window"
   ],
   "modules-center": [
     "clock"
@@ -23,9 +23,7 @@
     "battery",
     "tray"
   ],
-  "hyprland/workspaces": {
-    "on-click": "activate"
-  },
+  "niri/workspaces": {},
   "keyboard-state": {
     "numlock": true,
     "capslock": true,
@@ -34,12 +32,6 @@
       "locked": " ",
       "unlocked": " "
     }
-  },
-  "river/tags": {
-    "all-outputs": false
-  },
-  "river/window": {
-    "max-length": 50
   },
   "disk": {
     "format": "  {percentage_used}%"
