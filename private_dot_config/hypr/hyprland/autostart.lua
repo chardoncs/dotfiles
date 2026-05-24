@@ -4,7 +4,9 @@
 
 hl.on("hyprland.start", function ()
   -- Status bar
-  hl.exec_cmd("waybar")
+  hl.exec_cmd("waybar -c ~/.config/waybar/config-hyprland.jsonc")
+  -- Shell
+  --hl.exec_cmd("qs -c caelestia")
 
   -- Wallpaper
   hl.exec_cmd("run-hyprpaper")
@@ -17,6 +19,7 @@ hl.on("hyprland.start", function ()
 
   -- XDG Desktop Portal
   hl.exec_cmd("/usr/lib/xdg-desktop-portal-hyprland")
+  --hl.exec_cmd("/usr/lib/xdg-desktop-portal-gnome")
   hl.exec_cmd("/usr/lib/xdg-desktop-portal-gtk")
 
   -- Bluetooth

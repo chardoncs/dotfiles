@@ -268,7 +268,7 @@ layout {
 // See the binds section below for more spawn examples.
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "waybar"
+spawn-sh-at-startup "waybar -c ~/.config/waybar/config-niri.jsonc"
 spawn-at-startup "swaybg-random"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
@@ -282,8 +282,7 @@ spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "/usr/lib/xdg-desktop-portal-gtk"
 spawn-at-startup "/usr/lib/xdg-desktop-portal-gnome"
 
-// Solaar (Logi device manager)
-//spawn-sh-at-startup "solaar -w hide"
+spawn-sh-at-startup "solaar -w hide"
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
@@ -384,7 +383,7 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
     Mod+D hotkey-overlay-title="Run App Launcher: rofi" { spawn-sh "rofi -show run"; }
-    Mod+X hotkey-overlay-title="Lock the Screen: swaylock" { spawn-sh "swaylock -i /usr/share/backgrounds/archlinux/split.png"; }
+    Mod+X hotkey-overlay-title="Lock the Screen: swaylock" { spawn-sh "swaylock -i ~/Pictures/wallpapers/x4/2024-09-08_13-26.png"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
