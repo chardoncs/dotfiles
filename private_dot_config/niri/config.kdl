@@ -277,11 +277,7 @@ spawn-at-startup "swaybg-random"
 // Polkit
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 
-// XDG portal
-//spawn-at-startup "/usr/lib/xdg-desktop-portal-wlr"
-spawn-at-startup "/usr/lib/xdg-desktop-portal-gtk"
-spawn-at-startup "/usr/lib/xdg-desktop-portal-gnome"
-
+// Solaar (Logitech manager)
 spawn-sh-at-startup "solaar -w hide"
 
 hotkey-overlay {

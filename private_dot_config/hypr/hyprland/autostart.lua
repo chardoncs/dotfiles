@@ -17,11 +17,6 @@ hl.on("hyprland.start", function ()
   -- Polkit
   hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
 
-  -- XDG Desktop Portal
-  hl.exec_cmd("/usr/lib/xdg-desktop-portal-hyprland")
-  --hl.exec_cmd("/usr/lib/xdg-desktop-portal-gnome")
-  hl.exec_cmd("/usr/lib/xdg-desktop-portal-gtk")
-
   -- Bluetooth
   hl.exec_cmd("blueman-applet")
 
