@@ -269,13 +269,13 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-sh-at-startup "waybar -c ~/.config/waybar/config-niri.jsonc"
-spawn-at-startup "swaybg-random"
+spawn-at-startup "awww-daemon"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
 // Polkit
-spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
 
 // Solaar (Logitech manager)
 spawn-sh-at-startup "solaar -w hide"
