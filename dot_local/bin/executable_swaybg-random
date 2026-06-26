@@ -1,7 +1,0 @@
-#!/bin/bash
-
-WALLPAPER_DIR=/usr/share/backgrounds
-
-selected_wallpaper=$(find $WALLPAPER_DIR | shuf -n 1)
-
-exec swaybg -i $selected_wallpaper -m fill

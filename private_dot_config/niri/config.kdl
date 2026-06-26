@@ -656,4 +656,6 @@ binds {
     Mod+E hotkey-overlay-title="Select Emoji" { spawn "emote"; }
 
     Mod+Shift+C hotkey-overlay-title="Pick color" { spawn "hyprpicker"; }
+
+    Mod+Shift+N { spawn-sh "awww-random"; }
 }

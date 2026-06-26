@@ -1,0 +1,7 @@
+#!/bin/bash
+
+WALLPAPER_DIR=$HOME/Pictures/wallpapers/
+
+selected_wallpaper=$(find $WALLPAPER_DIR | shuf -n 1)
+
+exec awww img $selected_wallpaper --transition-type random --transition-step 120 --transition-fps 60
