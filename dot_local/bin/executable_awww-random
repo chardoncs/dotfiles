@@ -2,6 +2,7 @@
 
 WALLPAPER_DIR=$HOME/Pictures/wallpapers/
 
-selected_wallpaper=$(find $WALLPAPER_DIR | shuf -n 1)
+selected_wallpaper=$(find $WALLPAPER_DIR -type f | shuf -n 1)
+echo "$selected_wallpaper"
 
 exec awww img "$selected_wallpaper" --transition-type random --transition-step 120 --transition-fps 60
