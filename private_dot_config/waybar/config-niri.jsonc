@@ -14,6 +14,7 @@
     "clock"
   ],
   "modules-right": [
+    "power-profiles-daemon",
     "disk",
     "pulseaudio",
     "network",
