@@ -7,20 +7,63 @@
 // custom settings, run the `zed: Open Default Settings` command
 // from the command palette
 {
-  "features": {
-    "inline_completion_provider": "none"
+  "cli_default_open_behavior": "existing_window",
+  "base_keymap": "VSCode",
+  "disable_ai": true,
+  "status_bar": {
+    "line_endings_button": true
+  },
+  "line_ending": "prefer_lf",
+  "proxy": "",
+  "redact_private_values": false,
+  "vim": {
+    "toggle_relative_line_numbers": true,
+  },
+  "terminal": {
+    "font_size": 15.0,
+    "font_family": "JetBrains Mono",
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+      "enable_thinking": true,
+      "effort": "medium"
+    },
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
   },
   "telemetry": {
-    "metrics": false
+    "diagnostics": true,
+    "metrics": false,
   },
   "vim_mode": true,
-  "ui_font_size": 16,
+  "ui_font_size": 14,
   "buffer_font_size": 16,
   "theme": {
     "mode": "dark",
     "light": "Ayu Light",
-    "dark": "Ayu Dark"
+    "dark": "Kanagawa",
   },
   "ui_font_family": "Inter",
-  "buffer_font_family": "Fira Code"
+  "buffer_font_family": "JetBrains Mono",
+  "languages": {
+    "HTML": {
+      "tab_size": 2,
+    },
+  }
 }
