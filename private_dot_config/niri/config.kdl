@@ -268,7 +268,7 @@ layout {
 // See the binds section below for more spawn examples.
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "waybar"
+spawn-at-startup "qs"
 spawn-at-startup "awww-daemon"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
@@ -362,8 +362,8 @@ window-rule {
     // block-out-from "screencast"
 }
 
-layer-rule {
-    match namespace="^waybar$"
+/-layer-rule {
+    match namespace="^(waybar|quickshell)"
 
     background-effect {
         blur true
