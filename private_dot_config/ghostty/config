@@ -1,7 +1,7 @@
 # JetBrains Mono
 font-family = "JetBrains Mono"
 font-feature = "-calt, -dlig, +zero"
-font-size = 13
+font-size = 14
 
 # Fira Code
 #font-family = "Fira Code"
@@ -15,7 +15,7 @@ font-size = 13
 #font-size = 12
 #adjust-cell-height = 20%
 
-theme = "Builtin Tango Dark"
+theme = "TokyoNight"
 
 background = 000000
 background-opacity = 0.8
@@ -44,6 +44,7 @@ keybind = alt+5=unbind
 keybind = alt+6=unbind
 keybind = alt+7=unbind
 keybind = alt+8=unbind
+keybind = alt+9=unbind
 
 keybind = ctrl+shift+1=goto_tab:1
 keybind = ctrl+shift+2=goto_tab:2
