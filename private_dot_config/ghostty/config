@@ -17,7 +17,7 @@ font-size = 14
 
 theme = "TokyoNight"
 
-background = 000000
+background = 000a13
 background-opacity = 0.8
 
 #window-decoration = false
