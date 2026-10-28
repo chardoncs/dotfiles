@@ -1,5 +1,4 @@
-# JetBrains Mono
-font-family = "JetBrains Mono"
+# Builtin font (JetBrains Mono)
 font-feature = "-calt, -dlig, +zero"
 font-size = 14
 
